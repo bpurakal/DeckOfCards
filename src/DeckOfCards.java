@@ -25,7 +25,9 @@ public class DeckOfCards {
 			deck[shuffled] = holder;
 		}
 		
-		
+		for (String card: deck) {
+			System.out.println(card);
+		}
 		
 	}
 
