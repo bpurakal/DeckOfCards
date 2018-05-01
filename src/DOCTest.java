@@ -7,8 +7,8 @@ public class DOCTest {
 		
 		//print dealt cards in order
 		for (int i = 0; i<13; i++) {
-			//deal 4 cards
-			System.out.println("%-15s%-15s%-15s%-15s\n", 
+			//  deal/draw 4 cards
+			System.out.printf("%-15s%-15s%-15s%-15s\n", 
 					deck.deal(), deck.deal(), deck.deal(), deck.deal());
 		}
 	}
